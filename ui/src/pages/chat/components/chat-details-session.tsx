@@ -36,8 +36,6 @@ import { syncSessionPanelInputs, useSessionPanel } from "./chat-session-panel.ts
 import { preloadChatSubagentActivity } from "./chat-subagent-activity-lazy.tsx";
 import { ChatSummaryAutomations } from "./chat-summary-automations.tsx";
 
-export { preloadChatDetailsEnvironment } from "./chat-details-environment.tsx";
-
 registerEnglishCatalog(registerSessionProgressEnglish);
 
 registerEnglishCatalog(registerChatSessionEnglish);
